@@ -11,5 +11,5 @@ type errorString struct {
 }
 
 func (e *errorString) Error() string {
-	return "HttpClient: " + e.s
+	return "HttpPackage: " + e.s
 }
